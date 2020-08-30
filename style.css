@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Raleway;
+    src: url(https://fonts.google.com/specimen/Raleway);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(229, 57%, 11%);
+}
+.container{
+    width:80%;
+    margin:250px auto;
+    margin-bottom: 50px;
+    background-image: url(./images/bg-desktop.png);
+    min-height: 420px;
+}
+.content{
+    width:80%;
+    margin: 0 auto;
+    height: 200px;
+}
+.left{
+    float: left;
+    width:30%;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: 100px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-top-right-radius: 50%;
+}
+.right{
+    float:right;
+    width:50%;
+    height: 150px;
+    margin-top: -50px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+}
+.logo{
+    margin-top:50px;
+    margin-left: 50px;
+}
+.icons{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.icon{
+    width:40px;
+    height: 20px;
+    padding: 5px;
+    background-color: hsl(229, 57%, 11%);
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.icon img{
+    width:20px;
+    height: 20px;
+    display: inline-block;
+    margin: auto;
+}
+.contain{
+    width:80%;
+    margin:10px auto;
+    font-family: Raleway;
+}
+.contain p{
+    color:white;
+}
+.storage{
+    position: relative;
+    top:20px;
+}
+.wrap{
+    width:100%;
+    margin-top:40px;
+    margin-bottom: 10px;
+    background-color: hsl(229, 57%, 11%);
+    height: 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding-top:2px;
+}
+.inner{
+    width:81.5%;
+    height:13px;
+    border-radius:25px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+.ball{
+    float:right;
+    background-color:white;
+    width:13px;
+    height:13px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.first,.last{
+    margin-top: -5px;
+    display: inline-block;
+}
+.first{
+    float: left;
+}
+.last{
+    float: right;
+}
