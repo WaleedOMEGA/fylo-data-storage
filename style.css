@@ -130,3 +130,38 @@ body{
 .last{
     float: right;
 }
+.pop{
+    width:150px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    right:21%;
+    top:170px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-bottom-right-radius: 0;
+}
+.pop::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    /* At the bottom of the tooltip */
+    left: 136px;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white white transparent transparent;
+}
+.pop p{
+    margin:20px;
+    color:#ccc;
+    font-weight: bold;
+}
+.pop strong{
+    color:#000;
+    font-size:20px;
+    font-weight: bolder;
+}
