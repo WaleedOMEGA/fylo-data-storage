@@ -165,3 +165,20 @@ body{
     font-size:20px;
     font-weight: bolder;
 }
+@media (max-width:700px){
+    .right,.left{
+        display: block;
+        width:100%;
+        margin: 10px;
+        clear: both;
+        margin-left:-10px;
+    }
+    .pop::after{
+        border-width: 0;
+    }
+    .pop{
+        top: 600px;
+        right: 40%;
+        border-radius: 10px;
+    }
+}
